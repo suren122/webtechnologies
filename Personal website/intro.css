@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&family=Roboto:ital,wght@0,100;1,100&display=swap'); 
+
+img{
+    border-radius: 10%;
+    width: 220px;
+    height: 300px;
+    background-size: cover;
+}
+h1{
+    color: #398539;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+h2{
+    color: #777;
+    font-size: 25px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+h3{
+    font-size:25px ;
+    margin-bottom: auto;
+    color: blue;
+}
+
+
+
+/* laptop */
+@media only screen and (min-width:769px) and (max-width:1024px){
+    img{
+        border-radius: 10%;
+        width: 110px;
+        height: 150px;
+        background-size: cover;
+    }
+    h1{
+        color: black;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        margin-bottom: 2rem;
+    }
+    h2{
+        color: yellow;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+}
+/* tablet */
+@media only screen and (min-width:481px) and (max-width:768px){
+    img{
+        border-radius: 10%;
+        width: 110px;
+        height: 150px;
+        background-size: cover;
+    }
+    h1{
+        color: brown;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        margin-bottom: 2rem;
+    }
+    h2{
+        color: orange;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 7px;
+        font-weight: bold;
+    }
+}
+
+/* phone */
+@media only sreen and (min-width:320px) and (max-width:482px){
+
+    img{
+        border-radius: 10%;
+        width: 110px;
+        height: 150px;
+        background-size: cover;
+    }
+    h1{
+        color: yellowgreen;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        margin-bottom: 2rem;
+    }
+    h2{
+        color: blueviolet;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+
+}
